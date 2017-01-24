@@ -1,0 +1,166 @@
+[ 2017-01-16T00:00:39+08:00 ] 127.0.0.1 /withAndroid/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-01-16T00:45:52+08:00 ] 127.0.0.1 /withAndroid/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2017-01-16T01:17:34+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for G:/wamp/wamp/www/withAndroid/Runtime/Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(G:/wamp/wamp/www/withAndroid/Runtime/Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 36 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 36 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 43 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 43 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 86 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 86 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 95 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 95 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 101 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 101 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 106 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 106 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 165 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 165 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 174 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 174 行.
+NOTIC: [8] Undefined index: Think G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 233 行.
+NOTIC: [8] Trying to get property of non-object G:\wamp\wamp\www\withAndroid\Runtime\Cache\d0422bc839cd0a8f7b8c2265845cc4ae90a00ef1.file.login.html.php 第 233 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-01-16T01:17:34+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2017-01-16T01:21:09+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-01-16T01:22:33+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.049104s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for G:/wamp/wamp/www/withAndroid/Runtime/Cache\eee2cd3b7a0496a98dff10cce62d553601b61fa0.file.register.html.php G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(G:/wamp/wamp/www/withAndroid/Runtime/Cache\eee2cd3b7a0496a98dff10cce62d553601b61fa0.file.register.html.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-01-16T01:25:30+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.061515s ]
+SQL: INSERT INTO `sw_user` (`username`,`password`,`user_email`,`user_qq`,`user_tel`,`user_sex`,`user_xueli`,`user_hobby`,`user_introduce`) VALUES ('发士大夫','123','123123@ds.com','123123123','1243243545',1,3,'2,4','我是第二个啦idea') [ RunTime:0.094914s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant THEME_PATH - assumed 'THEME_PATH' G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Think\Template\Driver\Smarty.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant THEME_PATH - assumed 'THEME_PATH' G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Think\Template\Driver\Smarty.class.php 第 29 行.
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for THEME_PATH\mp\www\withAndroid\ThinkPHP\Tpl\dispatch_jump.tpl G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [2] filemtime() [<a href='function.filemtime'>function.filemtime</a>]: stat failed for mp\www\withAndroid\ThinkPHP\Tpl\dispatch_jump.tpl G:\wamp\wamp\www\withAndroid\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+ERR: Unable to load template file 'mp\www\withAndroid\ThinkPHP/Tpl/dispatch_jump.tpl'
+
+[ 2017-01-16T01:27:09+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.067323s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-01-16T01:27:51+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `sw_user` [ RunTime:0.017772s ]
+SQL: INSERT INTO `sw_user` (`username`,`password`,`user_email`,`user_qq`,`user_tel`,`user_sex`,`user_xueli`,`user_hobby`,`user_introduce`) VALUES ('234','123','1231233@qq.com','123123123','32131432423',1,5,'1,2','的fig链接发了个') [ RunTime:0.067424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+

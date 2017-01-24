@@ -1,0 +1,132 @@
+[ 2016-12-11T09:59:46+08:00 ] 127.0.0.1 /withAndroid/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016723s ]
+
+[ 2016-12-11T10:23:25+08:00 ] 192.168.56.1 /withAndroid/index.php/Home/User/regist?name=%3E%3E123&password=qw212
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011389s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.121160s ]
+SQL: SELECT * FROM `tp_userinfo`  [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041446s ]
+
+[ 2016-12-11T10:24:22+08:00 ] 192.168.56.1 /withAndroid/index.php/Home/User/regist?name=%3E%3E123&password=qw212
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.007310s ]
+SQL: SELECT * FROM `tp_userinfo`  [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2016-12-11T10:26:50+08:00 ] 192.168.56.1 /withAndroid/index.php/Home/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032558s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.176356s ]
+SQL: INSERT INTO `tp_userinfo` (`name`,`password`) VALUES ('&gt;&gt;123','qw212') [ RunTime:0.727503s ]
+SQL: SELECT * FROM `tp_userinfo`  [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.048020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048149s ]
+
+[ 2016-12-11T10:32:54+08:00 ] 192.168.56.1 /withAndroid/index.php/Home/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.034349s ]
+SQL: INSERT INTO `tp_userinfo` (`name`,`password`) VALUES ('&gt;&gt;123','qw212') [ RunTime:0.322427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039140s ]
+
+[ 2016-12-11T10:42:40+08:00 ] 192.168.56.1 /withAndroid/index.php/Home/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.080042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080219s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.011208s ]
+SQL: INSERT INTO `tp_userinfo` (`name`,`password`) VALUES ('qqqqqq123','qw212') [ RunTime:0.203677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016163s ]
+
+[ 2016-12-11T10:43:57+08:00 ] 192.168.1.108 /withAndroid/index.php/Home/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.006706s ]
+SQL: INSERT INTO `tp_userinfo` (`name`,`password`) VALUES ('xiaotiantian','123456789') [ RunTime:0.151662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-12-11T11:06:39+08:00 ] 192.168.1.108 /withAndroid/index.php/Home/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.009492s ]
+SQL: INSERT INTO `tp_userinfo` (`name`,`password`) VALUES ('xiaotiantian','123456789') [ RunTime:0.158522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004509s ]
+
+[ 2016-12-11T11:13:20+08:00 ] 192.168.1.108 /withAndroid/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001811s ]
+
