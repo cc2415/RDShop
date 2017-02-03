@@ -76,7 +76,7 @@ class GoodsController extends Controller{
 //                $this->error("数据添加失败",U('/Goods/add'));
                 echo 'faile';
             }
-        }else{
+        }else{  
             $this->display(); 
         }       
     }
