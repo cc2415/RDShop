@@ -46,7 +46,7 @@ class GoodsController extends Controller{
                     //拼装图片的路径名
                     show_debug($z);
                     echo '<br>';
-                   
+                     
                     $bigimg = $z['savepath'].$z['savename'];
                     $_POST['goods_big_img'] =$bigimg;
                     
@@ -77,8 +77,8 @@ class GoodsController extends Controller{
                 echo 'faile';
             }
         }else{
-                
-        }$this->display();        
+            $this->display(); 
+        }       
     }
 //    修改商品
     public function upd($goods_id){        
