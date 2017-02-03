@@ -32,6 +32,41 @@ class GoodsController extends Controller{
         //两个逻辑，1.添加信息 2.展示页面
         $goods=D('Goods');
         if(!empty($_POST)){
+            //判断是否有提交文件
+            $config = array(
+                'rootPath' =>  './public/',//。/是在index.php文件下的目录
+                'savePath' => 'Uploads/',//保存文件的路径
+            );
+            if(!empty($_FILES)){
+                $upload = new \Think\Upload($config);
+                $z = $upload ->uploadOne($_FILES['goods_img']);
+                if(!$z){
+                    show_debug($upload ->getError());//获得上传附件产生的错误
+                }else{
+                    //拼装图片的路径名
+                    show_debug($z);
+                    echo '<br>';
+                   
+                    $bigimg = $z['savepath'].$z['savename'];
+                    $_POST['goods_big_img'] =$bigimg;
+                    
+                    $image = new \Think\Image();
+                    $srcimg = $upload->rootPath.$bigimg;
+                    $image->open($srcimg);
+                    $image->thumb(150, 150);
+                    //缩略图src
+                    $smallimg = $z['rootPath']."small_".$z['savename'];
+                    $image->save($upload->rootPath.$smallimg);
+                    $_POST['goods_small_img'] = $smallimg;
+                    echo 'srcima<br>';
+                    show_debug($srcimg);
+                    echo 'smallimg<br>';
+                    show_debug($smallimg);
+                    
+                }
+                
+            }
+            
             $goods->create();//默认上传的时post方式，create进行了数据的收集和过滤
             $ar=$goods->add();
             if($ar){
@@ -42,8 +77,8 @@ class GoodsController extends Controller{
                 echo 'faile';
             }
         }else{
-            $this->display();            
-        }
+                
+        }$this->display();        
     }
 //    修改商品
     public function upd($goods_id){        

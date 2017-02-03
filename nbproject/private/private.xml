@@ -3,12 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/G:/wamp/wamp/www/withAndroid/Admin/Controller/ManageController.class.php</file>
-            <file>file:/G:/wamp/wamp/www/withAndroid/Admin/View/Manage/login.html</file>
-            <file>file:/G:/wamp/wamp/www/withAndroid/Common/Conf/config.php</file>
-            <file>file:/G:/wamp/wamp/www/withAndroid/Admin/View/Index/head.html</file>
-            <file>file:/G:/wamp/wamp/www/withAndroid/Home/Controller/UserController.class.php</file>
-            <file>file:/G:/wamp/wamp/www/withAndroid/Model/ManagerModel.class.php</file>
+            <file>file:/G:/wamp/wamp/www/shop/index.php</file>
+            <file>file:/G:/wamp/wamp/www/shop/Admin/Controller/GoodsController.class.php</file>
         </group>
     </open-files>
 </project-private>

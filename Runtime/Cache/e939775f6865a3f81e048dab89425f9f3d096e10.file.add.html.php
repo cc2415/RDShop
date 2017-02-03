@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-01-16 00:24:47
+<?php /* Smarty version Smarty-3.1.6, created on 2017-01-31 13:39:08
          compiled from "G:/wamp/wamp/www/withAndroid/Admin/View\Goods\add.html" */ ?>
 <?php /*%%SmartyHeaderCode:27533587ba24f65ef13-50449210%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e939775f6865a3f81e048dab89425f9f3d096e10' => 
     array (
       0 => 'G:/wamp/wamp/www/withAndroid/Admin/View\\Goods\\add.html',
-      1 => 1482258978,
+      1 => 1485841145,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_587ba24f6eb51',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_587ba24f6eb51')) {function content_587ba24f6eb51($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
@@ -61,6 +61,10 @@ mine.css" type="text/css" rel="stylesheet">
                 <tr>
                     <td>商品重量</td>
                     <td><input type="text" name="goods_weight" /></td>
+                </tr>
+                <tr>
+                    <td>商品图片</td>
+                    <td><input type="file" name="goods_img"/></input></td>
                 </tr>
                 <tr>
                     <td>商品详细描述</td>
