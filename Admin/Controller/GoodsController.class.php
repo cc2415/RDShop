@@ -44,8 +44,8 @@ class GoodsController extends Controller{
                     show_debug($upload ->getError());//获得上传附件产生的错误
                 }else{
                     //拼装图片的路径名
-                    show_debug($z);
-                    echo '<br>';
+                    //show_debug($z);
+                    //echo '<br>';
                      
                     $bigimg = $z['savepath'].$z['savename'];
                     $_POST['goods_big_img'] =$bigimg;
@@ -58,10 +58,10 @@ class GoodsController extends Controller{
                     $smallimg = $z['rootPath']."small_".$z['savename'];
                     $image->save($upload->rootPath.$smallimg);
                     $_POST['goods_small_img'] = $smallimg;
-                    echo 'srcima<br>';
-                    show_debug($srcimg);
-                    echo 'smallimg<br>';
-                    show_debug($smallimg);
+                    //echo 'srcima<br>';
+                    //show_debug($srcimg);
+                    //echo 'smallimg<br>';
+                    //show_debug($smallimg);
                     
                 }
                 
